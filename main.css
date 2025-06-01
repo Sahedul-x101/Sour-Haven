@@ -1,0 +1,13 @@
+/* 
+Main css file 
+--> No img is allowed for styling
+*/
+html, body{
+    background-color: rgb(243, 243, 224);
+    color: rgb(24, 59, 78);
+}
+
+#main-title {
+    text-align: center;
+    font-size: 3rem;
+}
