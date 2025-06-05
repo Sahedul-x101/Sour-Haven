@@ -24,7 +24,7 @@ Main css file
     padding: 2rem 3.5%;
 }
 .page-name {
-    font-family: Miskan;
+    font-family: Miskan, monospace;
     color: rgb(239, 238, 234);
     font-size: 3.5rem;
     text-shadow: 5px 4px var(--dark_blue_gray);
