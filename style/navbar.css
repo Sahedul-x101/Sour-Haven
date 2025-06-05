@@ -1,0 +1,49 @@
+/* 
+Main css file 
+--> No img is allowed for styling
+*/
+@font-face {
+    font-family: Miskan;
+    src: url('/assets/fonts/miskan/Miskan.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+:root {
+    --bittersweet: rgb(254, 119, 67);
+    --dark_blue_gray: rgb(39, 63, 79);
+    --page_background_color: rgb(239, 238, 234);
+    --page_font_color: rgb(0, 0, 0);
+    --hover_color: rgb(67, 183, 170);
+}
+/* Navbar-Starting code */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bittersweet);
+    padding: 2rem 3.5%;
+}
+.page-name {
+    font-family: Miskan;
+    color: rgb(239, 238, 234);
+    font-size: 3.5rem;
+    text-shadow: 5px 4px var(--dark_blue_gray);
+}
+
+.nav-list {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-list > * {
+    padding: 0.2rem 0.5rem;
+    background-color: var(--page_background_color);
+}
+
+.nav-list a:hover {
+    color: var(--hover_color);
+}
+/* Navbar_Ending code */
+
+
+
