@@ -4,7 +4,7 @@ Main css file
 */
 @font-face {
     font-family: Miskan;
-    src: url('./assets/fonts/miskan/Miskan.ttf') format('truetype');
+    src: url('../../assets/fonts/miskan/Miskan.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -24,9 +24,9 @@ Main css file
     padding: 2rem 3.5%;
 }
 .page-name {
-    font-family: 'Miskan', monospace;
+    font-family: Miskan;
     color: rgb(239, 238, 234);
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     text-shadow: 5px 4px var(--dark_blue_gray);
 }
 
