@@ -1,0 +1,21 @@
+:root {
+    --bittersweet: rgb(254, 119, 67);
+    --dark_blue_gray: rgb(39, 63, 79);
+    --page_background_color: rgb(239, 238, 234);
+    --page_font_color: rgb(0, 0, 0);
+    --hover_color: rgb(67, 183, 170);
+}
+
+/* top righ down left --> margin works this way*/
+.main-margin {
+    margin: 1.5rem 1rem 0rem 1.5rem;
+    text-align: center;
+}
+
+/* when use of links class it is used */
+.links {
+    color: var(--hover_color);
+    text-decoration-line: underline;
+}
+
+
