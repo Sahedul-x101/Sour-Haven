@@ -2,12 +2,15 @@
 Main css file 
 --> No img is allowed for styling
 */
+
+/* root */
 @font-face {
     font-family: Miskan;
     src: url('../../assets/fonts/miskan/Miskan.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
+
 :root {
     --bittersweet: rgb(254, 119, 67);
     --dark_blue_gray: rgb(39, 63, 79);
@@ -15,6 +18,8 @@ Main css file
     --page_font_color: rgb(0, 0, 0);
     --hover_color: rgb(67, 183, 170);
 }
+
+
 /* Navbar-Starting code */
 .navbar {
     display: flex;
@@ -49,8 +54,8 @@ Main css file
 /* Navbar_Ending code */
 
 
-/* for mobile users */
 
+/* for mobile users */
 @media (max-width: 768px){
     .navbar {
         flex-direction: column;

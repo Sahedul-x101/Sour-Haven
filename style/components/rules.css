@@ -1,3 +1,10 @@
+@font-face {
+    font-family: BitcountGridDouble;
+    src: url('../../assets/fonts/Bitcount_Grid_Double/BitcountGridDouble-VariableFont_CRSV\,ELSH\,ELXP\,slnt\,wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 :root {
     --bittersweet: rgb(254, 119, 67);
     --dark_blue_gray: rgb(39, 63, 79);
@@ -11,7 +18,7 @@
     margin: 1.5rem 2.5rem 0rem 2.5rem;
 }
 
-/* when use of links class it is used */
+/* Use it for link */
 .rule-link {
     color: rgb(67, 183, 170);
     text-decoration-line: underline;
@@ -25,12 +32,8 @@
 
 .rule-title {
     text-align: center;
-    
-}
-.rule-title::after {
-    content: '*-*-*-*-*-*-*-*-*-*-*';
-    display: block;
-    font-size: 0.5rem;
+    font-family: BitcountGridDouble;
+    font-weight: 300;
 }
 
 /*for highlighting the text*/
