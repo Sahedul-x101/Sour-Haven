@@ -1,6 +1,35 @@
 
-.section
-{
+.header-center{
+    display:flex;
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+}
+
+.font-sm{
+    font-size: small;
+}
+
+.enter-warp{
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.berry{
+    display: block;
+    max-width: 200px;
+    height: auto;
+}
+
+.card-enter{
+    padding: 10px 20px;
+    border: 1px solid green;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: white;
+    background-color: rgb(254, 119, 67);
 }

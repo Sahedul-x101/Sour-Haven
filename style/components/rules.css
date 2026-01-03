@@ -16,6 +16,7 @@
 /* top righ down left --> margin works this way*/
 .rule-margin {
     margin: 1.5rem 2.5rem 0rem 2.5rem;
+    /*TRBL -> Top right bottom left */
 }
 
 /* Use it for link */
